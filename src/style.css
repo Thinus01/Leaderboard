@@ -44,11 +44,6 @@ main {
   justify-content: space-between;
 }
 
-form button {
-  width: 30%;
-  align-self: flex-end;
-}
-
 button {
   padding: 3px;
   background-color: #fff;
@@ -60,6 +55,11 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+form button {
+  width: 30%;
+  align-self: flex-end;
 }
 
 table {
@@ -93,4 +93,3 @@ form {
   flex-direction: column;
   gap: 15px;
 }
-  
