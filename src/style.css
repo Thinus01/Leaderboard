@@ -53,13 +53,13 @@ button {
   box-shadow: 0 2px 2px 2px #000;
 }
 
-button:hover {
-  cursor: pointer;
-}
-
 form button {
   width: 30%;
   align-self: flex-end;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 table {
