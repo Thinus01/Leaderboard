@@ -121,6 +121,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
     "build": "webpack"
   },
   "repository": {
@@ -133,5 +134,8 @@
   "bugs": {
     "url": "https://github.com/Thinus01/Leaderboard/issues"
   },
-  "homepage": "https://github.com/Thinus01/Leaderboard#readme"
+  "homepage": "https://github.com/Thinus01/Leaderboard#readme",
+  "devDependencies": {
+    "webpack-dev-server": "^4.11.1"
+  }
 }
