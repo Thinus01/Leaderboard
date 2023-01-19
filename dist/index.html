@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+<script defer src="index.bundle.js"></script></head>
+<body>
+    <main>
+       <h1>Leaderboard</h1>
+       <section class="Container">
+        <div class="Rank">
+            <div class="Refresh">
+                <h3>Recent scores</h3>
+                <button id="RefreshButton">Refresh</button>
+            </div>
+            <table>
+                <tbody id="holder"></tbody>
+            </table>
+        </div>
+        <div class="InputFields">
+            <h3>Add your score</h3>
+            <form id="submit">
+                <label for="Name">
+                    <input type="text" id="Name" placeholder="Your name">
+                </label>
+                <label for="Score">
+                    <input type="text" id="Score" placeholder="Your score">
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+       </section>
+    </main>
+</body>
+</html>

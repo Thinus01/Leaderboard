@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nosifer&display=swap');
+
+* {
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+
+body {
+  background-color: rgb(18, 44, 83);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3%;
+  margin: 2%;
+}
+
+h1 {
+  margin-left: 37%;
+  margin-bottom: 7%;
+  font-size: 75px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 204, 255);
+}
+
+h3 {
+  font-size: 50px;
+  margin-bottom: 10%;
+}
+
+.Container {
+  display: flex;
+  width: 80vw;
+  gap: 100px;
+  align-self: center;
+}
+
+.Rank {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 25vw;
+  margin-left: 10%;
+}
+
+.InputFields {
+  margin-left: 10%;
+  width: 25%;
+}
+
+#submit {
+  margin-top: 20%;
+}
+
+#Name {
+  background-color: rgb(9, 27, 54);
+}
+
+#Score {
+  background-color: rgb(9, 27, 54);
+}
+
+.Refresh {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 3px;
+  background-color: rgb(9, 27, 54);
+  font-weight: bold;
+  font-weight: 800;
+  border: none;
+  box-shadow: 1px 2px 2px 2px rgb(26, 247, 255);
+  border-radius: 5px;
+}
+
+form button {
+  width: 30%;
+  align-self: flex-end;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#RefreshButton {
+  height: 30px;
+  margin-top: 3%;
+}
+
+table {
+  border: 1px solid rgb(0, 155, 160);
+  border-radius: 5px;
+}
+
+td {
+  border: none;
+  padding: 4px 1px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(9, 27, 54);
+}
+
+.add-score {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 25vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 5px 2px;
+  border: 1px solid rgb(0, 155, 160);
+  border-radius: 5px;
+  width: 100%;
+}
